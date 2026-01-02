@@ -26,7 +26,7 @@ def eval_metrics(actual, pred):
     return rmse, mae, r2
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(40)
 
@@ -74,8 +74,8 @@ if __name__ == "_main_":
 
 
         # For remote server only (Dagshub)
-        # remote_server_uri = "https://dagshub.com/Gajju9191/dagsub-demo-repo.mlflow"
-       # mlflow.set_tracking_uri(remote_server_uri)
+        remote_server_uri ="https://dagshub.com/DipaleeMahamunkar/Dagshub_Demo_2_1_26.mlflow"
+        mlflow.set_tracking_uri(remote_server_uri)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
