@@ -18,3 +18,6 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/DipaleeMahamunkar/Dagshub_Demo_2_
 export MLFLOW_TRACKING_USERNAME=DipaleeMahamunkar
 
 export MLFLOW_TRACKING_PASSWORD=302f0c696ce6d953775036c268e2b1bcf4bf0902
+
+# drive data link
+https://drive.google.com/file/d/1ThZkYrB1I4SyDlccsiQAkSHBE7gDEETa/view?usp=sharing
