@@ -32,3 +32,10 @@ with mlflow.start_run():
   mlflow.log_metric('metric name', 1)
 
 https://dagshub.com/DipaleeMahamunkar/chest-d-ct-IMG-Data_new.mlflow
+
+
+
+DVC cmd
+  dvc init
+  dvc repro
+  dvc dag
