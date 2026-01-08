@@ -1,6 +1,6 @@
-FROM python:3.9-slim-buster
+FROM python:3.9-slim
 
-RUN apt update -y && apt install awscli -y
+RUN pip install --no-cache-dir --upgrade awscli
 WORKDIR /app
 
 COPY . /app
