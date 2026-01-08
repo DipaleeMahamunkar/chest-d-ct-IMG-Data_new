@@ -39,3 +39,9 @@ DVC cmd
   dvc init
   dvc repro
   dvc dag
+
+ # jenkin
+  http://18.210.31.238:8080/
+
+  Token
+  117f0d60a2ea0c6ea8c11299b0fe3cf030
